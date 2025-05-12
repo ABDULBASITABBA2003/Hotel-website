@@ -13,7 +13,7 @@
 ## Overview
 This project is a responsive recipe website using data from TheMealDB API. API is fetched with recipe information and display it on the website, including the meal's image, title, instructions, ingredients, and a YouTube link for video instructions.
 ## Live Demo
-[Live Demo]()
+[Live Demo](https://hotel-website-2whk.onrender.com)
 
 ## Program Features
 
@@ -58,10 +58,6 @@ This project is a responsive recipe website using data from TheMealDB API. API i
 
 ## Presentation Link
 [Presentation Link] (https://www.loom.com/share/53117805c6a7453887b2e1cc26843b62?sid=ed7f3ce4-9fa1-4d17-96d0-598b775e55c0) 
-
-## Live Demo
-[Live Demo] (https://hotel-website-2whk.onrender.com)
-
 
 ## Author
 Name: [Abdulbasit Abba Labaran]

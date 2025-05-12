@@ -51,32 +51,36 @@
     margin-right: 210px;
 
 }
+body.menu-open {
+    overflow: hidden;
+}
+
 .nav-menu {
     display: none;
-    position: absolute;
+    position: fixed;
     top: 0;
-    width: 100%;
+    left: 0;
+    width: 100vw;
     height: 100vh;
-    background-color: #ffff;
+    background-color: #fff;
     flex-direction: column;
     align-items: flex-start;
     padding: 20px;
     box-shadow: -2px 0 5px rgba(0, 0, 0, 0.5);
-    margin-top: 20px;
-    z-index: 1;
-    
-    
+    z-index: 1000;
 }
+
+.nav-menu.active {
+    display: flex;
+    gap: 8px;
+}
+
 #nav-icon {
     margin-left: 40px;
     margin-top: 15px;
     height: 35px;
 }
-.nav-menu.active {
-    transform: translateX(0);
-    display: flex;
-    gap: 8px;
-}
+
 .nav-menu ul {
     flex-direction: column;
     width: 100%;
